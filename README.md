@@ -11,7 +11,7 @@ varscoper at /tmp/varscoper
 
 This exists basically because my CF builds typically also run a varscoper test that utilizes the power of mxunit and varscoper combined.
 
-```cmfl
+```cfm
 <cfcomponent name="unittests.utilities.varscoper"  extends="unittests.BaseTest" output="false">
 
 	<cffunction name="varScoper"  access="public" output="false">
